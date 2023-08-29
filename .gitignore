@@ -1,0 +1,6 @@
+# ignore all logs
+*.log
+# ignore ALL files in 
+test-results/
+output/
+node-modules/

@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "search": "playwright test --grep @search -c playwright.config.js",
+    "intercom": "playwright test --grep @intercom -c playwright.config.js",
+    "articles": "playwright test --grep @articles -c playwright.config.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.37.1"
+  }
+}
